@@ -14,11 +14,11 @@ driver.get("https://www.facebook.com/")
 
 #輸入email 
 context = driver.find_element_by_css_selector('#email')
-context.send_keys("qlixilp@yahoo.com.tw") 
+context.send_keys("yours") 
 
 #輸入password
 context = driver.find_element_by_css_selector('#pass')
-context.send_keys("Kevin3466")
+context.send_keys("yours")
 
 commit = driver.find_element_by_css_selector('button[type=''submit'']').click()
 time.sleep(3)
